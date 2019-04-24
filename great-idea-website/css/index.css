@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 header, section {
 	width: 100%;
 	padding: 20px;
@@ -78,7 +83,7 @@ header nav{
 }
 
 header a {
-	padding: 20px 50px;
+	padding: 20px 20px;
 	text-decoration: none;
 	color: #5c5959;
 }
@@ -107,19 +112,22 @@ hr {
 }
 
 .main-content img {
-	margin: 20px auto;
-	vertical-align: middle;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center
 }
 .top-section {
 	display: inline-block;
-	width: 45%;
+	width: 49%;
 	vertical-align: top;
+	padding: 20px 0;
    }
 
    .bottom-section {
 	display: inline-block;
-	width: 28%;
+	width: 33%;
 	vertical-align: top;
+	padding: 20px 0;
    }
 
    footer .contact {
